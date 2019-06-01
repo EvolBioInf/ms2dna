@@ -2,9 +2,11 @@
 ## Author
 Bernhard Haubold, `haubold@evolbio.mpg.de`
 ## Description
-DESCRIPTION
+`ms2dna` converts output from
+[`ms`](http://home.uchicago.edu/~rhudson1/source/mksamples.html) to
+DNA sequences.
 ## Compile
-Compile the sources using `make`; the executable `ms2dna` is now in the directory `build`
+Compile the sources using `make`; the executable `ms2dna` is now in the directory `build`.
 ## Documentation
 The command `make doc` generates the manual `doc/ms2dna.pdf`.
 ## License
