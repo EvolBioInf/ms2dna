@@ -67,8 +67,8 @@ Args *getArgs(int argc, char *argv[]) {
 
 void printUsage() {
   printf("Usage: %s [options] [inputFiles]\n", progname());
-  printf("<DESCRIPTION>\n");
-  printf("Example: %s -i 2\n", progname());
+  printf("Convert ms output to DNA sequences\n");
+  printf("Example: ms 10 1 -s 10 -r 0 1000 | %s\n", progname());
   printf("Options:\n");
   printf("\t[-g <NUM> GC content; default: %.2f]\n", DEFAULT_G);
   printf("\t[-s <NUM> seed for random number generator; default: system]\n");
