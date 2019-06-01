@@ -70,7 +70,7 @@ void printUsage() {
   printf("<DESCRIPTION>\n");
   printf("Example: %s -i 2\n", progname());
   printf("Options:\n");
-  printf("\t[-s <NUM> GC content; default: %.2f]\n", DEFAULT_G);
+  printf("\t[-g <NUM> GC content; default: %.2f]\n", DEFAULT_G);
   printf("\t[-s <NUM> seed for random number generator; default: system]\n");
   printf("\t[-h print this help message and exit]\n");
   printf("\t[-v print version & program information and exit]\n");
