@@ -83,7 +83,7 @@ void printSplash(Args *args) {
   for(int i = 0; i < l - 1; i++)
     printf("%c", VERSION[i]);
   printf(", %s\n", DATE);
-  printf("Author: Bernhard Haubold & Peter Pfaffelhuber\n");
+  printf("Authors: Bernhard Haubold & Peter Pfaffelhuber\n");
   printf("License: GNU General Public License, https://www.gnu.org/licenses/gpl.html\n");
   printf("Bugs: haubold@evolbio.mpg.de\n");
   exit(0);
